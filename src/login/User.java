@@ -13,11 +13,9 @@ public class User {
             String url = "jdbc:mysql://127.0.0.1/test?user=lopes&password=123";
             conn = DriverManager.getConnection(url);
         } catch (Exception e) { }
-        return conn;
-    }
+        return conn;}
     public String nome = "";
     public boolean result = false;
-
     public boolean verificarUsuario(String login, String senha) {
         String sql = "";
         Connection conn = conectarBD();
@@ -25,7 +23,6 @@ public class User {
         sql += "select nome from usuarios ";
         sql += "where login = " + "'" + login + "'";
         sql += " and senha = " + "'" + senha + "';";
-
         try {
             Statement st = conn.createStatement();
             ResultSet rs = st.executeQuery(sql);
@@ -33,7 +30,6 @@ public class User {
                 result = true;
                 nome = rs.getString("nome");}
         } catch (Exception e) { }
-        return result;
-    }
+        return result; }
 } //fim da class
 
