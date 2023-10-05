@@ -24,16 +24,16 @@ O autor optou por separar diferentes grafos para cada método da classe por ques
 
 ## Complexidade ciclomática
 
-V(G) = (Arestas - Nós) + 2
-Arestas = 6
-Nós = 6
-V(G) = (6 - 6) + 2
-V(G) = 2
+V(G) = (Arestas - Nós) + 2 <br>
+Arestas = 6 <br>
+Nós = 6 <br>
+V(G) = (6 - 6) + 2 <br>
+V(G) = 2 <br>
 
 ## Sequências possíveis
 
-1 -> 2 -> 3 -> 6
-1 -> 2 -> 4 -> 5 -> 6
+1 -> 2 -> 3 -> 6 <br>
+1 -> 2 -> 4 -> 5 -> 6  
 
 ## Segundo método enumerado por caminhos (verificarUsuario)
 ```
@@ -60,17 +60,17 @@ V(G) = 2
 
 ## Complexidade ciclomática
 
-V(G) = (Arestas - Nós) + 2
-Arestas = 9
-Nós = 8
-V(G) = (9 - 8) + 2
-V(G) = 3
+V(G) = (Arestas - Nós) + 2 <br>
+Arestas = 9 <br>
+Nós = 8 <br>
+V(G) = (9 - 8) + 2 <br>
+V(G) = 3 <br>
 
 ## Sequências possíveis
 
-1 -> 2 -> 3 -> 4 -> 8
-1 -> 2 -> 3 -> 4 -> 5 -> 8
-1 -> 2 -> 6 -> 7 -> 8
+1 -> 2 -> 3 -> 4 -> 8 <br>
+1 -> 2 -> 3 -> 4 -> 5 -> 8 <br>
+1 -> 2 -> 6 -> 7 -> 8 <br>
     
 
 
