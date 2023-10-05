@@ -2,7 +2,7 @@
 
 ## Descrição 
 
-A seguir serão feitos um grafo de fluxo, cálculo de complexidade ciclomática e as sequências possíveis para o código. 
+A seguir serão feitos grafo de fluxo, cálculo de complexidade ciclomática e as sequências possíveis para os métodos do código. 
 O autor optou por separar diferentes grafos para cada método da classe por questões de organização e entendimento.
 
 ## Primeiro método enumerado por caminhos (conectarBD)
