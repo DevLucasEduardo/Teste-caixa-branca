@@ -8,7 +8,7 @@ autenticar usuários em um banco de dados MySQL.
 # Teste-caixa-branca
 
 ## Descrição
-```java
+
 package login;
 
 import java.sql.Connection;
@@ -43,7 +43,7 @@ public class User {
         } catch (Exception e) { }
         return result; }
 } //fim da class
-```
+
 asdasd
 
 
