@@ -22,14 +22,20 @@ O autor optou por separar diferentes grafos para cada método da classe por ques
 
 ![image](https://github.com/DevLucasEduardo/Teste-caixa-branca/assets/102432468/b9a10a7e-3f0a-4eaf-bc35-ffa01d23ca3b)
 
-
 ## Complexidade ciclomática
+
+V(G) = (Arestas - Nós) + 2
+Arestas = 6
+Nós = 6
+V(G) = (6 - 6) + 2
+V(G) = 2
 
 ## Sequências possíveis
 
+1 -> 2 -> 3 -> 6
+1 -> 2 -> 4 -> 5 -> 6
 
-
-## Segundo método enumerado por caminhos (
+## Segundo método enumerado por caminhos (verificarUsuario)
 ```
     public boolean verificarUsuario(String login, String senha) {
      1  String sql = "";
@@ -52,12 +58,19 @@ O autor optou por separar diferentes grafos para cada método da classe por ques
 
 ![image](https://github.com/DevLucasEduardo/Teste-caixa-branca/assets/102432468/9520ceff-a7fe-4a46-85b0-470a8938e70d)
 
-
 ## Complexidade ciclomática
+
+V(G) = (Arestas - Nós) + 2
+Arestas = 9
+Nós = 8
+V(G) = (9 - 8) + 2
+V(G) = 3
 
 ## Sequências possíveis
 
-
+1 -> 2 -> 3 -> 4 -> 8
+1 -> 2 -> 3 -> 4 -> 5 -> 8
+1 -> 2 -> 6 -> 7 -> 8
     
 
 
