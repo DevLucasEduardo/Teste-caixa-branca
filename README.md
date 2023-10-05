@@ -2,21 +2,11 @@
 
 ## Descrição
 
-A seguir serão descritos os erros encontrados na classe User, a qual tem como responsabilidade
-autenticar usuários em um banco de dados MySQL. 
+A seguir serão feitos um grafo de fluxo, cálculo de complexidade ciclomática e as sequências possíveis para o código. 
+O autor optou por separar diferentes grafos para cada método da classe por questões de organização e entendimento.
 
-# Teste-caixa-branca
-
-## Descrição
-
-package login;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+## Primeiro método enumerado por caminhos
 ```
-public class User {
     public Connection conectarBD() {
     1   Connection conn = null;
     2   try {
@@ -25,6 +15,16 @@ public class User {
           3 conn = DriverManager.getConnection(url);
     4   } 5 catch (Exception e) {} 6
        7 return conn;}
+
+```
+
+## Grafo de fluxo de controle 
+
+![image](https://github.com/DevLucasEduardo/Teste-caixa-branca/assets/102432468/aee69711-1571-48e6-8616-6c0316fdcee3)
+
+
+
+
     public String nome = "";
     public boolean result = false;
     public boolean verificarUsuario(String login, String senha) {
